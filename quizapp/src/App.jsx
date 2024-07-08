@@ -5,6 +5,7 @@ import Welcome from './pages/Welcome';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './pages/Layout';
 import NoPage from './pages/NoPage';
+import Question from './pages/Question';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Welcome />} />
+            <Route path='/question' element={<Question />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
