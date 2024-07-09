@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './pages/Layout';
 import NoPage from './pages/NoPage';
 import Question from './pages/Question';
+import Results from './pages/Results';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Welcome />} />
             <Route path='/question' element={<Question />} />
+            <Route path='/results' element={<Results />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

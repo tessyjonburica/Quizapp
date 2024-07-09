@@ -15,7 +15,7 @@ function Welcome() {
 
                     <div>
                         <h2 className="font-sans text-5xl">Welcome to the <br /> <span className="font-bold">Frontend Quiz!</span> </h2>
-                        <p className="mt-4 text-gray-600">Pick a subject to get started</p>
+                        <p className="mt-4 text-gray-500">Pick a subject to get started</p>
                     </div>
                     <div>
                         <ul className="border border-pink-400 ">
