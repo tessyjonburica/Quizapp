@@ -23,7 +23,7 @@ const Timer = ({ duration, onComplete }) => {
   return (
     <div className="w-full bg-gray-300 rounded-full h-2.5 dark:bg-gray-700">
       <div
-        className="bg-blue-600 h-2.5 rounded-full dark:bg-blue-500"
+        className="bg-purple-500 h-2.5 rounded-full dark:bg-purple-500"
         style={{ width: `${percentage}%` }}
       />
     </div>

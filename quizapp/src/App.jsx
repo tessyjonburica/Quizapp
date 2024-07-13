@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Welcome />} />
-            <Route path='/question' element={<Question />} />
+            <Route path="/question/:topic" element={<Question />} />
             <Route path='/results' element={<Results />} />
             <Route path="*" element={<NoPage />} />
           </Route>

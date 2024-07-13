@@ -4,9 +4,10 @@ function Header({topic}) {
     return ( 
         <>
         
-        <div className="flex justify-between bg-white dark:text-purple-400 dark:bg-gray-900 text-purple-400 transition-colors duration-300">
-           <div>{topic} Accesibility</div>
-           <ToggleSwitch/>
+        <div className="flex justify-between bg-white pt-3 dark:text-white dark:bg-gray-900 text-gray-700 transition-colors duration-300">
+           <div className="text-xl md:ms-6 ms-6 font-semibold">{topic}</div>
+          <div className="me-5"><ToggleSwitch/></div>
+           
         </div>
     
         </>
