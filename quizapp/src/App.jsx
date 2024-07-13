@@ -7,7 +7,8 @@ import Layout from './pages/Layout';
 import NoPage from './pages/NoPage';
 import Question from './pages/Question';
 import Results from './pages/Results';
-
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      {/* <Welcome /> */}
+      <Analytics/>
+      <SpeedInsights/>
     </>
   );
 }
